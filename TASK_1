@@ -1,17 +1,17 @@
-my_list = [1, 2, 3, 4, 5]
-my_list.append(6)
-my_list.remove(3)
-my_list[0] = 10
+my_numbers = [10, 20, 30, 40, 50]
+my_numbers.append(60)
+my_numbers.remove(30)
+my_numbers[0] = 100
 
-my_dict = {'a': 1, 'b': 2, 'c': 3}
-my_dict['d'] = 4
-del my_dict['b']
-my_dict['a'] = 100
+my_values = {'x': 10, 'y': 20, 'z': 30}
+my_values['w'] = 40
+del my_values['y']
+my_values['x'] = 1000
 
-my_set = {1, 2, 3, 4, 5}
-my_set.add(6)
-my_set.remove(3)
+my_set = {10, 20, 30, 40, 50}
+my_set.add(60)
+my_set.remove(30)
 
-print("Modified List:", my_list)
-print("Modified Dictionary:", my_dict)
+print("Modified List:", my_numbers)
+print("Modified Dictionary:", my_values)
 print("Modified Set:", my_set)
